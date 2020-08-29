@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>자바스크립트 이벤트</title>
+	<link rel="stylesheet" href="css/event.css">	
+</head>
+<body>
+	<div id="item">
+		<img src="images/flower1.jpg" alt="">
+		<button class="over" id="open" onclick="showDetail()">상세 설명 보기</button>
+		<div id="desc" class="detail">
+			<h4>장미</h4>
+			<p>장미의 잎은 어긋나기를 하고 보통 홀수 깃꼴겹잎을 이루지만 홑잎인 것도 있으며, 턱잎이 있다. 꽃은 줄기 끝에 단생꽃차례나 산방꽃차례로 피며, 홑꽃은 꽃잎이 5개지만 원예종 가운데에는 홑꽃 이외에 겹꽃·반겹꽃을 이루는 것이 많다. 장미의 대표적 특성 중 하나는 가시인데, 가시는 줄기의 표피세포가 변해서 끝이 날카로운 구조로 변한 것이다.</p>
+			<button id="close" onclick="hideDetail()">상세 설명 닫기</button>
+		</div>
+	</div>	
+	
+	<script src="js/event.js"></script>
+</body>
+</html>  
